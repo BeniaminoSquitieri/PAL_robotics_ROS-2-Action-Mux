@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>action_mux_pkg</name>
+  <version>0.0.1</version>
+  <description>Pacchetto nodi per Action Server/Client con sottoscrizione a un topic e subscriber generico</description>
+
+  <maintainer email="tuo@email.com">Tuo Nome</maintainer>
+  <license>Apache License 2.0</license>
+
+  <!-- Dipendenze runtime -->
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>my_action_interfaces</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
