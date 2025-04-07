@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>my_action_interfaces</name>
+  <version>0.0.1</version>
+  <description>Pacchetto contenente interfacce custom (azione, messaggi, servizi).</description>
+  <maintainer email="tuo@email.com">Tuo Nome</maintainer>
+  <license>Apache License 2.0</license>
+
+  <!-- Dipendenze per la build -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>rosidl_default_generators</build_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+
+  <!-- Segnala che questo pacchetto contiene interfacce ROS -->
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

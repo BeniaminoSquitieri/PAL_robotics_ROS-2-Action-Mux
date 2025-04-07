@@ -1,0 +1,11 @@
+# DoWork.action
+
+# Goal
+int32 work_duration
+---
+# Result
+bool success
+---
+# Feedback
+float32 progress
+
